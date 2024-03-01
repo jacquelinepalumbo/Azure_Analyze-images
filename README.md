@@ -2,11 +2,10 @@
 
 Understanding image content and context and extracting information from images.
 
+# Na prática usando Azure Machine Learning
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=LinkedIn&logoColor=30A3DC)](https://www.linkedin.com/in/jacqueline-ribeiro-743876247/)
 
-3. **Ao marcar esta caixa, reconheço que li e entendi todos os termos abaixo**: _Selecionado_.
-   
-Selecione **Revisar** + **criar** e, em seguida, Criar e aguarde a conclusão da implantação.
 
 ## Conectar seu recurso de serviço de IA do Azure ao Vision Studio
 
@@ -113,4 +112,9 @@ Nesta tarefa, você usa o recurso **de detecção de objeto** da análise de ima
 
 <img width="689" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/d01ffd5d-fd47-4d33-884f-229bbe4a17b2">
 
+# Referências:
 
+
+[Analyze images in Vision Studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
+
+&nbsp;
