@@ -26,4 +26,20 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 5. Feche a página de configurações selecionando o "x" no canto superior direito da tela.
 
-   ## Gerar legendas para uma imagem
+
+## Gerar legendas para uma imagem
+
+Agora você está pronto para usar o Vision Studio para analisar imagens tiradas por uma câmera na loja _Northwind Traders_.
+
+Vejamos a funcionalidade de legendagem de imagem do Azure AI Vision. As legendas de imagem estão disponíveis por meio dos recursos **Legenda** e **Legendas densas**.
+
+1. Em um navegador da Web, navegue até o [Vision Studio](https://portal.vision.cognitive.azure.com/gallery/featured).
+
+2. Na página **inicial Introdução ao Vision**, selecione a guia **Análise de imagem** e selecione o bloco **Adicionar legendas a imagens**.
+
+   <img width="388" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/6d9086e0-5183-46c9-9850-fe4ec7447e68">
+
+3. No subtítulo **Experimentar**, reconheça a política de uso de recursos lendo e marcando a caixa.
+
+4. Selecione [https://aka.ms/mslearn-images-for-analysis](https://aka.ms/mslearn-images-for-analysis) para baixar**image-analysis.zip**. Abra a pasta em seu computador e localize o arquivo chamado **store-camera-1.jpg**; que contém a seguinte imagem:
+
