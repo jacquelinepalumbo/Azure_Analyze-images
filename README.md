@@ -41,5 +41,44 @@ Vejamos a funcionalidade de legendagem de imagem do Azure AI Vision. As legendas
 
 3. No subtítulo **Experimentar**, reconheça a política de uso de recursos lendo e marcando a caixa.
 
-4. Selecione [https://aka.ms/mslearn-images-for-analysis](https://aka.ms/mslearn-images-for-analysis) para baixar**image-analysis.zip**. Abra a pasta em seu computador e localize o arquivo chamado **store-camera-1.jpg**; que contém a seguinte imagem:
+4. Selecione [https://aka.ms/mslearn-images-for-analysis](https://aka.ms/mslearn-images-for-analysis) para baixar **image-analysis.zip**. Abra a pasta em seu computador e localize o arquivo chamado **store-camera-1.jpg**; que contém a seguinte imagem:
 
+<img width="452" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/5b7000a6-2e67-4afd-a016-5473c679b189">
+
+5. Carregue a imagem **store-camera-1.jpg** arrastando-a para a caixa **Arrastar e soltar arquivos aqui** ou navegando até ela em seu sistema de arquivos.
+
+6. Observe o texto da legenda gerado, visível no painel **Atributos detectados** à direita da imagem.
+
+A funcionalidade **Legenda** fornece uma única frase em inglês legível por humanos que descreve o conteúdo da imagem.
+
+7. Em seguida, use a mesma imagem para executar **legendas densas**. Retorne à home page do **Vision Studio** e, como fez antes, selecione a guia **Análise de imagem** e, em seguida, selecione o bloco **Legenda densa**.
+
+O recurso **Legendas densas** difere do recurso **Legenda** porque fornece várias legendas legíveis por humanos para uma imagem, uma descrevendo o conteúdo da imagem e outras, cada uma cobrindo os objetos essenciais detectados na imagem. Cada objeto detectado inclui uma caixa delimitadora, que define as coordenadas de pixel dentro da imagem associada ao objeto.
+
+8. Passe o mouse sobre uma das legendas na lista **Atributos detectados** e observe o que acontece na imagem.
+
+   <img width="566" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/de1af567-8b56-4d56-b04a-d8f61d05d1da">
+
+   Mova o cursor do mouse sobre as outras legendas da lista e observe como a caixa delimitadora muda na imagem para realçar a parte da imagem usada para gerar a legenda.
+
+
+# Marcação de imagens
+
+O próximo recurso que você tentará é a funcionalidade **Extrair tags**. As tags de extração são baseadas em milhares de objetos reconhecíveis, incluindo seres vivos, cenários e ações.
+
+1. Retorne à home page do Vision Studio e selecione o bloco **Extrair marcas comuns de imagens** na guia **Análise de imagem**.
+
+2. Em **Escolha o modelo que você deseja experimentar**, deixe **Produto pré-criado versus modelo de intervalo selecionado**. 
+
+Em **Escolha seu idiom**a, selecione **Inglês** ou um idioma de sua preferência.
+
+3. Abra a pasta que contém as imagens que você baixou e localize o arquivo chamado **store-image-2.jpg**, que tem a seguinte aparência:
+   <img width="448" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/610e8a50-1b01-411a-8fe4-bba03cbff0a9">
+
+
+4. Carregue o arquivo **store-camera-2.jpg**.
+
+5. Revise a lista de tags extraídas da imagem e a pontuação de confiança para cada uma no painel de atributos detectados. Aqui, o escore de confiança é a probabilidade de que o texto para o atributo detectado descreva o que realmente está na imagem. Observe na lista de tags que ela inclui não apenas objetos, mas ações, como _comprar, vender e ficar em pé_.
+
+    <img width="653" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/04be6f74-c039-4abe-9ed1-45b58e15f276">
+  
