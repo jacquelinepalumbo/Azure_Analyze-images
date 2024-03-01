@@ -81,4 +81,27 @@ Em **Escolha seu idiom**a, selecione **Inglês** ou um idioma de sua preferênci
 5. Revise a lista de tags extraídas da imagem e a pontuação de confiança para cada uma no painel de atributos detectados. Aqui, o escore de confiança é a probabilidade de que o texto para o atributo detectado descreva o que realmente está na imagem. Observe na lista de tags que ela inclui não apenas objetos, mas ações, como _comprar, vender e ficar em pé_.
 
     <img width="653" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/04be6f74-c039-4abe-9ed1-45b58e15f276">
-  
+
+
+# Detecção de objetos
+
+Nesta tarefa, você usa o recurso **de detecção de objeto** da análise de imagem. A detecção de objetos detecta e extrai caixas delimitadoras com base em milhares de objetos reconhecíveis e seres vivos.
+
+1. Retorne à home page do Vision Studio e selecione o bloco **Detectar objetos comuns em imagens** na guia **Análise de imagem**.
+
+2. Em **Escolha o modelo que você deseja experimentar**, deixe **Produto pré-criado versus modelo de intervalo selecionado**.
+
+3. Abra a pasta que contém as imagens que você baixou e localize o arquivo chamado **store-camera-3.jpg**, que tem a seguinte aparência:
+
+<img width="425" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/bb466996-c2ba-4647-9bf9-7d8484b213c6">
+
+
+4. Carregue o arquivo **store-camera-3.jpg**.
+
+5. Na caixa **Atributos detectados**, observe a lista de objetos detectados e suas pontuações de confiança.
+
+6. Passe o cursor do mouse sobre os objetos na lista **Atributos detectados** para realçar a caixa delimitadora do objeto na imagem.
+
+7. Mova o controle deslizante **Valor de limite** até que um valor de 70 seja exibido à direita do controle deslizante. Observe o que acontece com os objetos na lista. O controle deslizante de limite especifica que somente objetos identificados com uma pontuação de confiança ou probabilidade maior que o limite devem ser exibidos.
+
+
