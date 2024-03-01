@@ -105,3 +105,12 @@ Nesta tarefa, você usa o recurso **de detecção de objeto** da análise de ima
 7. Mova o controle deslizante **Valor de limite** até que um valor de 70 seja exibido à direita do controle deslizante. Observe o que acontece com os objetos na lista. O controle deslizante de limite especifica que somente objetos identificados com uma pontuação de confiança ou probabilidade maior que o limite devem ser exibidos.
 
 
+<img width="704" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/d5efe137-146d-4203-9186-8caf33764524">
+
+<img width="757" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/92ce6c0a-d5b2-410b-80d7-4feac52eff17">
+
+<img width="739" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/c24504bb-3bb7-4ef5-9355-53011c15aa19">
+
+<img width="689" alt="image" src="https://github.com/jacquelinepalumbo/Azure_Analyze-images/assets/119548193/d01ffd5d-fd47-4d33-884f-229bbe4a17b2">
+
+
